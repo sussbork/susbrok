@@ -1805,7 +1805,7 @@ Rejoin_Button.BorderSizePixel = 0
 Rejoin_Button.Position = UDim2.new(0, 25, 0, 275)
 Rejoin_Button.Size = UDim2.new(0, 150, 0, 30)
 Rejoin_Button.Font = Enum.Font.Oswald
-Rejoin_Button.Text = "Jerk off (r6)"
+Rejoin_Button.Text = ""
 Rejoin_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Rejoin_Button.TextScaled = true
 Rejoin_Button.TextSize = 14.000
@@ -3430,7 +3430,7 @@ end)
 FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
-		SendNotify("SusBroken","Use another!!.\nCredits: noname pastefy account")
+		SendNotify("SusBroken","Loading!!.\nCredits: noname pastefy account")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/xdxdxd42/sys/refs/heads/main/jerkof"))()
 	end
 end)
