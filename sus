@@ -3435,9 +3435,6 @@ FreeEmotes_Button.MouseButton1Click:Connect(function()
 	end
 end)
 
-Rejoin_Button.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sussbork/susbrok/refs/heads/main/jerk%20of"))()
-
 Serverhop_Button.MouseButton1Click:Connect(function()
 	if httprequest then
 		local servers = {}
