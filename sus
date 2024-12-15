@@ -1152,7 +1152,7 @@ ClickTargetTool_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ClickTargetTool_Button.BorderSizePixel = 0
 ClickTargetTool_Button.Position = UDim2.new(0, 180, 0, 0)
 ClickTargetTool_Button.Size = UDim2.new(0, 30, 0, 30)
-ClickTargetTool_Button.Image = "rbxassetid://2716591855"
+ClickTargetTool_Button.Image = "rbxassetid://136738036531485"
 
 UserIDTargetLabel.Name = "UserIDTargetLabel"
 UserIDTargetLabel.Parent = Target_Section
@@ -2708,7 +2708,7 @@ ClickTargetTool_Button.MouseButton1Click:Connect(function()
 	local GetTargetTool = Instance.new("Tool")
 	GetTargetTool.Name = "ClickTarget"
 	GetTargetTool.RequiresHandle = false
-	GetTargetTool.TextureId = "rbxassetid://2716591855"
+	GetTargetTool.TextureId = "rbxassetid://136738036531485"
 	GetTargetTool.ToolTip = "Select Target"
 
 	local function ActivateTool()
